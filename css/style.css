@@ -1,0 +1,477 @@
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+@font-face {
+	font-family: 'Calibre';
+	src: url(Calibre/CalibreRegular.ttf);
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Helvetica';
+	src: url(Helvetica/Helvetica-Regular.ttf);
+	font-style: normal;
+}
+
+/*hier begint de pagina van de body*/
+
+.home {
+	font-family: 'Calibre', 'Helvetica', sans-serif;
+	background-image: url(../images/header7.png);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+}
+
+header {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	padding: 40px 10%;
+}
+
+/*hier zijn alle menu items*/
+
+ul li img {
+	width: 2.5rem;
+	position: absolute;
+	top: 0;
+	left: 0;
+	margin: 1.8rem 9rem;
+}
+
+ul {
+	list-style: none;
+	display: flex;
+}
+
+ul li {
+	padding: 0px 20px;
+}
+
+ul li a {
+	text-decoration: none;
+	color: white;
+	font-size: 22px;
+	font-weight: 300;
+	margin: 1rem;
+}
+
+/*alle states*/
+ul li a:hover {
+	color: #879af0;
+}
+
+ul li a:focus {
+	color: darkcyan;
+}
+
+ul li a:active {
+	color: lightblue;
+}
+
+ul li:visited {
+	color: aquamarine;
+}
+
+ul li:nth-child(2) {
+	position: absolute;
+	margin-left: 59rem;
+}
+
+/*vervangen met een andere selector*/
+.kop1 {
+	color: white;
+	font-family: 'Calibre', 'Helvetica', sans-serif;
+	font-weight: 500;
+	font-size: 120px;
+	margin-top: 9rem;
+	margin-left: 12rem;
+	line-height: 93%;
+	width: 66rem;
+}
+
+/*paragraaf met de section en positionering op de container*/
+.eersteparagraaf {
+	color: white;
+	font-family: 'Calibre', 'Helvetica', sans-serif;
+	font-weight: 300;
+	font-size: 32px;
+	width: 49rem;
+	margin-left: 13rem;
+}
+
+/*vervangen met een andere selector tot hier*/
+
+/*hier is de tekst van de section*/
+
+main section h3 span:first-child {
+	color: white;
+	font-family: 'Helvetica', 'Calibre', sans-serif;
+	font-weight: 200;
+	font-size: 22px;
+	display: block;
+	width: 1px;
+}
+
+main section h3 {
+	color: white;
+	font-family: 'Helvetica', 'Calibre', sans-serif;
+	font-weight: bold;
+	font-size: 22px;
+	margin-left: 13rem;
+	margin-top: 3rem;
+	display: block;
+	width: 1px;
+}
+
+main section div {
+	width: 65px;
+	height: 20px;
+	border-bottom: 2px solid blue;
+	margin-left: 13rem;
+	margin-bottom: 5rem;
+}
+
+main section:nth-child(2) {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	background-color: white;
+	padding: 7rem 0rem;
+}
+/*hier zijn alle kopjes en paragrafen*/
+.kop2 {
+	color: white;
+	font-family: 'Calibre', 'Helvetica', sans-serif;
+	font-weight: 200;
+	font-size: 55px;
+	color: blue;
+	width: 50rem;
+	margin-bottom: 2rem;
+}
+
+.paragraaf1 {
+	color: #000;
+	font-family: 'Calibre', 'Helvetica', sans-serif;
+	font-weight: 100;
+	font-size: 23px;
+	width: 49rem;
+}
+
+.paragraaf2 {
+	color: #000;
+	font-family: 'Calibre', 'Helvetica', sans-serif;
+	font-weight: 100;
+	font-size: 23px;
+	width: 49rem;
+	margin-top: 2rem;
+}
+
+/*margins op de container*/
+/*hier begint de footer*/
+
+footer {
+	background-color: black;
+}
+
+footer ul {
+	padding: 3rem;
+	background-color: black;
+	font-family: 'Helvetica', 'Calibre', sans-serif;
+	font-weight: 300;
+	justify-content: center;
+	margin-right: 4rem;
+}
+
+footer ul li:nth-child(2) {
+	display: none;
+}
+
+.logofooter {
+	width: 2.2rem;
+	margin-top: 92.7rem;
+}
+
+/*hier zijn de andere paginas met andere styling elementen*/
+.aboutme {
+	font-family: 'Calibre', 'Helvetica', sans-serif;
+	background-image: url(../images/header.png);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+}
+
+.projects {
+	font-family: 'Calibre', 'Helvetica', sans-serif;
+	background-image: url(../images/headerprojects.png);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+}
+
+main section:nth-child(3) {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	background-color: white;
+	padding: 7rem 0rem;
+}
+
+.kop3 {
+	color: white;
+	font-family: 'Calibre', 'Helvetica', sans-serif;
+	font-weight: 200;
+	font-size: 55px;
+	color: blue;
+	width: 50rem;
+	margin-bottom: 2rem;
+}
+
+.derdeparagraaf {
+	color: white;
+	font-family: 'Calibre', 'Helvetica', sans-serif;
+	font-weight: 300;
+	font-size: 32px;
+	width: 39rem;
+	margin-left: 13rem;
+}
+/*de andere paragrafen van de sections*/
+
+.paragraaf3 {
+	color: #000;
+	font-family: 'Calibre', 'Helvetica', sans-serif;
+	font-weight: 100;
+	font-size: 23px;
+	width: 49rem;
+}
+
+.paragraaf4 {
+	color: #000;
+	font-family: 'Calibre', 'Helvetica', sans-serif;
+	font-weight: 100;
+	font-size: 23px;
+	width: 49rem;
+	margin-top: 2rem;
+}
+
+main section:nth-child(4) {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	background-color: white;
+	padding: 7rem 0rem;
+}
+
+
+/*hier begint de 4e pagina*/
+.connect {
+	font-family: 'Calibre', 'Helvetica', sans-serif;
+	background-image: url(../images/header8.png);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+}
+
+.vierdeparagraaf {
+	color: white;
+	font-family: 'Calibre', 'Helvetica', sans-serif;
+	font-weight: 300;
+	font-size: 32px;
+	width: 43rem;
+	margin-left: 13rem;
+}
+/*hier is het contact formulier van pagina connect*/
+.contactform {
+	max-width: 500px;
+	margin: auto;
+	padding: 0 20px;
+	overflow: hidden;
+}
+
+.contacttext {
+	display: block;
+	width: 100%;
+	box-sizing: border-box;
+	margin: 16px 0;
+	border: 0;
+	background-color: white;
+	padding: 20px 130px;
+	outline: none;
+	color: blue;
+	transition: 0.5s;
+}
+
+.contacttext:hover {
+	box-shadow: 0 0 5px 3px #879af0;
+}
+
+textarea.contacttext {
+	resize: none;
+	height: 100px;
+	margin-top: 2rem;
+	margin-bottom: 2rem;
+}
+
+.knopje {
+	margin-left: 6rem;
+	border: 0;
+	background-color: #fff;
+	color: blue;
+	padding: 12px 70px;
+	border-radius: 20px;
+	cursor: pointer;
+	transition: 0.5s
+}
+
+.knopje:hover {
+	background-color: #ffff00;
+	color: #000;
+}
+
+.knopje:active {
+	background-color: #879af0;
+	color: #fff;
+}
+
+/*social media section*/
+
+.socialmenu {
+	margin-top: 3rem;
+	margin-right: 10rem;
+}
+
+.socialmenu ul {
+	position: absolute;
+	padding: 0;
+	margin: 0;
+	transform: translate(-50%, -50%);
+	display: flex;
+}
+
+.socialmenu ul li {
+	list-style: none;
+	margin: 0 15px;
+	color: blue;
+}
+
+.socialmenu ul li .fa {
+	font-size: 30px;
+	line-height: 60px;
+	transition: 0.6s;
+	color: blue;
+}
+
+.socialmenu ul li a {
+	position: relative;
+	display: block;
+	height: 60px;
+	color: blue;
+
+}
+
+.socialmenu ul li a:hover {
+	color: deeppink;
+}
+
+.kop4 {
+	font-family: 'Calibre', 'Helvetica', sans-serif;
+	font-weight: 200;
+	font-size: 55px;
+	color: blue;
+	width: 35rem;
+	margin-bottom: 2rem;
+}
+
+.kop6 {
+	font-family: 'Calibre', 'Helvetica', sans-serif;
+	font-weight: 200;
+	font-size: 55px;
+	color: white;
+	width: 35rem;
+	margin-bottom: 2rem;
+}
+
+main section.blauweachtergrond {
+	background-color: blue;
+}
+
+
+/*
+.erf {
+ position: absolute;
+ top: 50%;
+ left: 50%;
+ transform: translate(-50%, -50%);
+ background: #2f3640;
+ height: 40px;
+ border-radius: 40px;
+ padding: 10px;
+	
+}
+
+.erf:hover > .erftext {
+ width: 240px;
+ padding: 0 6px;
+}
+
+.erfbutton {
+ color: #e84118;
+ float: right;
+ width: 30px;
+ height: 20px;
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ transition: 0.4s;
+ color: white;
+ cursor: pointer;
+}
+
+.erfbutton > i {
+ font-size: 25px;
+}
+
+.erftext {
+ border: none;
+ background: none;
+ outline: none;
+ float: left;
+ padding: 0;
+ color: white;
+ font-size: 16px;
+ transition: 0.4s;
+ line-height: 40px;
+ width: 0px;
+ font-weight: bold;
+}
+*/
+
+
+/*
+Bronvermeldingen
+
+YouTube. (2019). Geraadpleegd op 13 januari 2020, van https://www.youtube.com/watch?v=sj9x-wDxoJY
+
+17: How to Make a Website Responsive | Learn HTML and CSS | HTML Tutorial | Basics of CSS. (2020). Geraadpleegd op 2020, van https://www.youtube.com/watch?v=ZYV6dYtz4HA
+
+Responsive Navigation Bar Tutorial | HTML CSS JAVASCRIPT. (2017). Geraadpleegd op 2020, van https://www.youtube.com/watch?v=gXkqy0b4M5g&t=789s
+
+mmtuts. (2018). 24: Forms In HTML and CSS | How To Create A Form | Learn HTML and CSS | HTML Tutorial | CSS Tutorial. Geraadpleegd op 2018, van https://www.youtube.com/watch?v=E5MEzC0prd4
+
+W3Schools. (2013). W3Schools Online Web Tutorials. Geraadpleegd op 5 november 2019, van https://www.w3schools.com/
+
+w3schools. (2019). How To Create a Contact Form with CSS. Geraadpleegd op 13 januari 2020, van https://www.w3schools.com/howto/howto_css_contact_form.asp
+
+<p>
+    <a href="http://jigsaw.w3.org/css-validator/check/referer">
+        <img style="border:0;width:88px;height:31px"
+            src="http://jigsaw.w3.org/css-validator/images/vcss"
+            alt="Valide CSS!" />
+    </a>
+</p>
+
+https://unsplash.com/photos/bzdhc5b3Bxs*/
